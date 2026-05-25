@@ -15,3 +15,9 @@ jobs:
       - name: Printing Hello World
         run: echo "Hello World"
       
+  good_bye:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Good Bye
+        run: echo "Good Bye!!!"
