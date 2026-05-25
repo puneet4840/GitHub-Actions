@@ -11,6 +11,11 @@ on:
 jobs:
   hello_world:
     runs-on: ubuntu-latest
+    
     steps:
-      - uses: action/checkout@v4
+      - name: Checkout Code
+        uses: action/checkout@v4
+
+      - name: Printing Hello World
+        run: echo "Hello World"
       
