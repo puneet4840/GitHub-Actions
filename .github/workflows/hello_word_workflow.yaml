@@ -20,4 +20,4 @@ jobs:
 
     steps:
       - name: Good Bye
-        run: echo HOSTNAME
+        run: echo $HOSTNAME
