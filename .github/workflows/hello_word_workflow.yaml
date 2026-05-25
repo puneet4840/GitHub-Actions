@@ -15,9 +15,9 @@ jobs:
       - name: Printing Hello World
         run: echo "Hello World"
       
-  good_bye:
+  hostname:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Good Bye
+      - name: Printing runner hostname
         run: echo $HOSTNAME
